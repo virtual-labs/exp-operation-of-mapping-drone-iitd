@@ -1,7 +1,6 @@
 src/*/edit_files
 src/*/image_projects
 helper/
-developer tools/
 temp/
 .vscode
 automate/
