@@ -1,4 +1,4 @@
-import { Scenes, Src, Util, Dom, DragAndDrop, Elements } from "./Libs.js";
+import { Scenes, Src, Util, Dom, DragAndDrop, Elements, Layout } from "./Libs.js";
 
 const Steps = {
   
@@ -77,6 +77,7 @@ const Steps = {
 
     //! Explaination intro
     ()=>{
+      Layout.ProgressBar.hideTopProgressBar();
       Scenes.StepProcess.start();
       Scenes.experimentHeading("Land Survey using Drone");
       Util.setCC("...");

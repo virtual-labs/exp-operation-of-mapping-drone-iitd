@@ -1,31 +1,100 @@
-# Procedure
+### Marking Ground Control Points (GCPs) and Recording Coordinates
 
-1. **Set Up the GNSS Base Station:**
-   - Select a known reference point for the GNSS base station.
-   - Set up the base station over the reference point and establish a connection with the GNSS rover.
-   - Record the position data for the base station for later use in differential corrections.
+#### Step 1: Setting Up the Base Station
+- Identify the survey location on the map.  
+- Place the **stake** into the ground to mark the measurement point.  
+- Use **spray paint** to highlight the area around the stake.  
+- Place the **base tripod** over the stake.  
+- Mount the **tribrach** on the tripod.  
+- Align the instrument using the **optical plummet**.  
+- Place the **GNSS Base Receiver** on the tribrach.  
+- Power on the receiver and wait for initialization.  
 
-2. **Configure the GNSS Rover:**
-   - Place the GNSS rover in the survey area.
-   - Ensure that the rover is receiving satellite signals and corrects its position by referencing the base station.
 
-3. **Surveying with GNSS Rover:**
-   - Move the rover to different points within the survey area, recording location coordinates and elevations.
-   - Collect data points at the required intervals and document them for further processing.
+#### Step 2: Connecting Mobile to GNSS Base Receiver
+- Turn on Wi-Fi on the mobile phone.  
+- Connect to the network **"reach:37:2F"**.  
+- Open the **Emlid Flow** app.  
+- Rename device to **"reach-base"**.  
+- Set update rate to **5 Hz** under GNSS settings.  
+- Configure **RTCM3 messages** under Base Mode.  
+- Enable **LoRa** in Correction Output.  
+- Close the phone screen after setup.  
 
-4. **Integrate Drone for Aerial Surveying:**
-   - Program the drone with a flight path that covers the entire survey area.
-   - Ensure the drone is equipped with a GNSS receiver for precise georeferencing of images during the flight.
-   - Capture aerial images using the drone, ensuring sufficient overlap for photogrammetric processing.
+#### Step 3: Setting Up the Rover (GCP 1)
+- Place the **GCP marker** at the first location.  
+- Position the **rover tripod** over it.  
+- Mount the **GNSS Rover Receiver**.  
+- Power it on and wait for initialization.  
 
-5. **Data Processing:**
-   - Process the collected GNSS data using software like Trimble Business Center or RTKLIB to perform differential corrections.
-   - Process the drone images using photogrammetry software (e.g., Pix4D or Agisoft Metashape) to generate 3D models, DEMs, or orthophotos.
 
-6. **Analysis and Interpretation:**
-   - Analyze the processed data for terrain mapping, volume estimation, or other survey-related tasks.
-   - Generate maps and reports based on the collected data.
+#### Step 4: Recording Coordinates of GCP 1
+- Connect mobile to rover Wi-Fi.  
+- Open **Emlid Flow** and configure GNSS settings.  
+- Enable **LoRa** in Correction Input.  
+- Check correction status under **Status**.  
+- Go to **Survey → Add** and label as **"GCP"**.  
+- Enable **Fix Only** mode.  
+- Click **Measure** and wait for completion.  
+- Save and close after recording coordinates.  
+- Fold the tripod and store it.  
 
-7. **Finalize and Report:**
-   - Compile all data and reports for submission.
-   - Ensure that the survey results meet the required accuracy standards and provide a clear analysis of the area surveyed.
+
+#### Step 5: Recording Coordinates of GCP 2, 3, and 4
+- Move to the next GCP location.  
+- Place the marker and set up the rover.  
+- Open **Survey → Add → Measure**.  
+- Wait for completion and save data.  
+- Store equipment after each measurement.  
+- Repeat for all remaining GCPs.  
+
+---
+
+### Preparing the Drone for Survey
+
+#### Steps
+- Move to the drone take-off location.  
+- Open the drone box and remove components.  
+- Attach all **four propellers**.  
+- Insert the **battery**.  
+- Power on the drone and confirm readiness.  
+---
+
+
+### Conducting the Survey - Ready to Fly
+
+#### Steps
+- Select a safe, flat take-off area.  
+- Place **four safety cones** around the area.  
+- Position the drone at the center.  
+- Power on the **remote controller**.  
+- Open **Plan → 2D Photogrammetry**.  
+- Define the survey boundary on the map.  
+- Save the plan as **"DRONE JOB"**.  
+- Click **Invoke → Start**.  
+- Slide to **Execute** to launch the drone.  
+- The drone captures images automatically.  
+- After completion, it performs **Return to Home (RTH)** and lands.  
+
+---
+
+### Post-Survey Data Collection, Analysis, and Reporting
+
+#### Steps
+- Power off the drone.  
+- Remove the **memory card**.  
+- Insert it into the **laptop**.  
+- Open **Pix4Dmatic** software.  
+- Import images from the **Golf Part folder**.  
+- Load **gcps.csv** under Tie Points.  
+- Set coordinate reference systems and apply.  
+- Open processing settings and enable:
+  - Dense Point Cloud  
+  - Image Pre-processing  
+  - Mesh  
+  - DSM  
+  - Orthomosaic  
+- Start processing and wait for completion.  
+- View results in **3D mode**.  
+- Import and save the **Quality Report**.  
+- Download the report (PDF) for submission.

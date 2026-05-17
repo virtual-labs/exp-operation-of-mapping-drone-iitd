@@ -1,8 +1,6 @@
-# Theory  
-
 Land surveying using **GNSS (Global Navigation Satellite System) base, GNSS rover, and drone** is a modern and accurate method for collecting spatial data of the Earth’s surface. It combines satellite-based positioning with aerial imaging for efficient mapping.  
 
-## Components and Their Roles  
+### Components and Their Roles  
 
 1. **GNSS Base Station (Reference Receiver)**  
    - A fixed receiver placed at a known location.  
@@ -21,14 +19,14 @@ Land surveying using **GNSS (Global Navigation Satellite System) base, GNSS rove
    - Images are later processed to generate maps, 2D orthophotos, or 3D models of the terrain.  
    - Helps cover large areas faster compared to manual ground surveys.  
 
-## Working Principle  
+### Working Principle  
 
 - Both **GNSS base and rover** receive signals from satellites. The base compares the actual known position with satellite-calculated position and sends correction signals to the rover.  
 - The **rover** uses these corrections to measure ground points with centimeter-level accuracy.  
 - Simultaneously, the **drone** captures high-resolution aerial images of the same survey area.  
 - Combining ground control points (measured by rover) and aerial images (captured by drone) produces accurate maps and survey data.  
 
-## Advantages  
+### Advantages  
 
 - High positional accuracy.  
 - Time-saving compared to traditional surveying.  

@@ -1,5 +1,3 @@
-# References
-
 1. **Books:**
    - "GPS for Land Surveyors" by Jan Van Sickle
    - "Introduction to Modern Navigation" by S. L. Parry

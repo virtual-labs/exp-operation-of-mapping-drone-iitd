@@ -1,4 +1,4 @@
-import { Util } from "./Libs.js";
+import { Dom, Util } from "./Libs.js";
 
 const Layout = {
   // ! Drawer
@@ -61,6 +61,10 @@ const Layout = {
       let progressActive = Util.getAll(".progress-step-active");
       progress.style.width =
         ((progressActive.length - 1) / (this.progressSteps.length - 1)) * 100 + "%";
+    },
+
+    hideTopProgressBar() {
+      new Dom(".progress-bar").hide();
     },
   },
 
