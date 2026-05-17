@@ -1,0 +1,1 @@
+The aim of this experiment is to conduct a land survey using GNSS (Global Navigation Satellite System) base and rover units along with a drone. The objective is to gather accurate geospatial data for mapping, topographic surveys, and creating digital elevation models (DEMs) for analysis and planning purposes.

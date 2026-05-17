@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What does GNSS stand for?",
+      "answers": {
+        "a": "Global Navigation Satellite System",
+        "b": "Geographical Navigation Survey System",
+        "c": "General Network Survey System",
+        "d": "Global Network Satellite Setup"
+      },
+      "explanations": {},
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The GNSS base station is usually placed at?",
+      "answers": {
+        "a": "A moving vehicle",
+        "b": "An unknown location",
+        "c": "A known fixed reference point",
+        "d": "Inside the drone"
+      },
+      "explanations": {},
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the primary function of a GNSS rover?",
+      "answers": {
+        "a": "Sending signals to satellites",
+        "b": "Collecting position data in the field",
+        "c": "Correcting errors in the base station",
+        "d": "Replacing aerial drones"
+      },
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Drones are used in land surveying mainly to?",
+      "answers": {
+        "a": "Capture aerial images",
+        "b": "Communicate with satellites",
+        "c": "Correct GNSS rover errors",
+        "d": "Replace the base station"
+      },
+      "explanations": {},
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which method is commonly used to process drone images into 3D models?",
+      "answers": {
+        "a": "Spectrometry",
+        "b": "Photogrammetry",
+        "c": "Telemetry",
+        "d": "Topography"
+      },
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
