@@ -1,0 +1,7 @@
+src/*/edit_files
+src/*/image_projects
+helper/
+temp/
+.vscode
+automate/
+automate*

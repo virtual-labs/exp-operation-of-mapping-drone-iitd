@@ -2,38 +2,64 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. What role does the GNSS base station play in surveying?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Provides aerial images",
+        "b": "Acts as a fixed reference for corrections",
+        "c": "Controls drone flight paths",
+        "d": "Stores rover coordinates"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. The GNSS rover is mainly used to?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Stay fixed at a known location",
+        "b": "Collect position data at different field points",
+        "c": "Correct drone images directly",
+        "d": "Transmit signals to satellites"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "3. What is the main use of a drone in land surveying?",
+      "answers": {
+        "a": "Sending correction signals to the rover",
+        "b": "Capturing aerial photographs of the survey area",
+        "c": "Replacing the GNSS base station",
+        "d": "Storing GNSS satellite data"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. Why are GNSS rover measurements combined with drone images?",
+      "answers": {
+        "a": "To control drone speed",
+        "b": "To improve mapping accuracy using ground control points",
+        "c": "To calculate satellite orbits",
+        "d": "To avoid using a base station"
+      },
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Combining GNSS and drone technology in surveying provides?",
+      "answers": {
+        "a": "Less accurate but faster results",
+        "b": "Efficient and highly accurate survey data",
+        "c": "Only 2D maps without coordinates",
+        "d": "Satellite image replacement"
+      },
+      "explanations": {},
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
